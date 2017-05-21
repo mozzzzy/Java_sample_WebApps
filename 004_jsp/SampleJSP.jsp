@@ -20,9 +20,13 @@
 			-- include ディレクティブ
 				他のjspをincludeする
 				
+				
 
 			-- tablib ディレクティブ
-				
+				詳細よくわからんが、jstlのカスタムタグを使うときなんかに、
+				taglibディレクティブのuri属性で指定する
+				<%@ taglib prefix="tagname" uri="http://java/sun.com/jsp/jstl/core" %>
+
 
 		- スクリプティング要素
 			javaのコードを埋め込むための構文。
